@@ -1,0 +1,10 @@
+1 - Pizza
+2 - Churrasco
+3 - Hamburguer
+4 - Comida Japonesa
+5 - Estrogonofe
+6 - Açaí
+7 - Pão francês
+8 - Macarrão
+9 - Chocolate
+10 - Biscoito
