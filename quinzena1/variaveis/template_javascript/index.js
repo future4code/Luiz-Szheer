@@ -28,11 +28,11 @@
 
 
 //Exercicio 1
-let nome
-let idade
+//let nome
+//let idade
 
-console.log(typeof nome)
-console.log(typeof idade)
+//console.log(typeof nome)
+//console.log(typeof idade)
 // Basicamente imprimiu undefined porque não foi atribuido nenhum valor para as duas variáveis.
 
 let nome = prompt("Qual o seu nome?")
