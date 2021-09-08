@@ -58,8 +58,9 @@ console.log("Você torce para o Vasco da Gama?", timeDeFutebol, "Você é socio 
 //Exercicio 3
 let a = 10
 let b = 25
+let c
 
-a = c
+c = a
 a = b 
 b = c 
 
