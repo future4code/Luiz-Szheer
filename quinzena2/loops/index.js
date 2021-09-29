@@ -139,9 +139,10 @@ console.log(maiorNumeroEhMenorNumero(arrayOriginal));
 const numeroEscolhido = Number(prompt("Escolha um número!!!!"))
 console.log("Vamos jogar!!!")
 let numeroDeTentativas
+let acerteONumero
 
-for (let i = 0; i !== numeroEscolhido; i++) {
-    const acerteONumero = Number(prompt("Tente acertar o número!!!"))
+for (let i = 0; acerteONumero !== numeroEscolhido; i++) {
+    acerteONumero = Number(prompt("Tente acertar o número!!!"))
     console.log(`O número chutado foi: ${acerteONumero}`)
     if (acerteONumero > numeroEscolhido) {
         console.log(`Errou. O Numero escolhido é menor.`)
@@ -150,7 +151,6 @@ for (let i = 0; i !== numeroEscolhido; i++) {
     } else {
         console.log("Acertou")
         numeroDeTentativas= (i++ + 1)
-        break
     }
     
 }
@@ -164,9 +164,11 @@ if(numeroAleatorio === 0) {
 }
 console.log("Vamos jogar!!!")
 let numeroDeTentativas
+let acerteONumero
 
-for (let i = 0; i !== numeroAleatorio; i++) {
-    const acerteONumero = Number(prompt("Tente acertar o número!!!"))
+
+for (let i = 0; acerteONumero !== numeroAleatorio; i++) {
+    acerteONumero = Number(prompt("Tente acertar o número!!!"))
     console.log(`O número chutado foi: ${acerteONumero}`)
     if (acerteONumero > numeroAleatorio) {
         console.log(`Errou. O Numero escolhido é menor.`)
@@ -174,10 +176,8 @@ for (let i = 0; i !== numeroAleatorio; i++) {
         console.log(`Errou. O número escolhido é maior`)
     } else {
         console.log("Acertou")
-        numeroDeTentativas= (i++ + 1)
-        break
-    }
-    
+        numeroDeTentativas= (i++ + 1)   
+    }  
 }
 console.log(`Você acertou o número no: ${numeroDeTentativas} chute`)
 
