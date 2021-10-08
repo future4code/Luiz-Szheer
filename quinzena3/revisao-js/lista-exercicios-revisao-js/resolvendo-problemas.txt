@@ -1,0 +1,12 @@
+1º Passo: Deve se ler com bastante atenção o enunciado e se possível mais de uma vez.
+2º Passo: Retirar as informações relevantes do texto e verificar palavras que não se sabe o significado.
+Substantivos = variáveis e verbos = funções
+3º Passo: Pensar em entradas e saídas para resolver o problema em código.
+4º Passo: Fazer um esquema visual. EX: Fluxograma
+5º Passo: Criar um código feio
+6º Passo: Testar o código
+7º Passo: Melhorar o código, refatorando.
+
+Os 7 passos são fundamentais para resolução do problema e elaboração do código.
+Ajudam não apenas a visualizar o problema e suas variaveis, como organizar o processo como um todo.
+Ajuda a identificar todas as necessidades e facilidade a visualização dos problemas a serem resolvidos.
