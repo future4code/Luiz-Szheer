@@ -82,14 +82,14 @@ function retornaNNumerosPares(n) {
 }
 // EXERCÍCIO 08
 function checaTriangulo(a, b, c) {
- 
-  if(a === b && b === c) {
+
+  if (a === b && b === c) {
     return "Equilátero"
   } else if (a === b || b === c) {
     return "Isósceles"
   } else {
     return "Escaleno"
-  } 
+  }
   // return 'Escaleno'
   // return 'Equilátero'
   // return 'Isósceles'
@@ -133,7 +133,7 @@ function comparaDoisNumeros(num1, num2) {
     }
 
   }
- // Formato do objeto a ser retornado:
+  // Formato do objeto a ser retornado:
   // {
   //   maiorNumero: X,
   //   maiorDivisivelPorMenor: Y,
@@ -173,25 +173,27 @@ function ordenaArray(array) {
 
 // EXERCÍCIO 12
 function filmeFavorito() {
-  const filme = new Object();
-  filme.nome = 'O Diabo Veste Prada'
-  filme.ano = 2006
-  filme.diretor = 'David Frankel'
-  filme.atores = ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+  const filme = {
+    nome: 'O Diabo Veste Prada',
+    ano: 2006,
+    diretor: 'David Frankel',
+    atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+
+  }
   return filme
 }
 
 // EXERCÍCIO 13
 function imprimeChamada() {
-  // "Venha assistir ao filme NOME_DO_FILME, de ANO, dirigido por DIRECAO e estrelado por ELENCO."
-  const filme = new Object();
-filme.nome='O Diabo Veste Prada'
-filme.ano=2006
-filme.diretor='David Frankel'
-filme.atores=['Meryl Streep',' Anne Hathaway',' Emily Blunt',' Stanley Tucci']
-return `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores}.`
-}
 
+  const filme = {
+    nome: 'O Diabo Veste Prada',
+    ano: 2006,
+    diretor: 'David Frankel',
+    atores: ['Meryl Streep', ' Anne Hathaway', ' Emily Blunt', ' Stanley Tucci']
+  }
+  return (`Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores}.`)
+}
 
 // EXERCÍCIO 14
 function criaRetangulo(lado1, lado2) {
@@ -214,7 +216,7 @@ function maioresDe18(arrayDePessoas) {
   const maiores = arrayDePessoas.filter((item) => {
     return item.idade >= 18
   })
-return maiores
+  return maiores
 }
 
 // EXERCÍCIO 16B
@@ -222,45 +224,66 @@ function menoresDe18(arrayDePessoas) {
   const menores = arrayDePessoas.filter((item) => {
     return item.idade < 18
   })
-return menores
+  return menores
 }
 
 // EXERCÍCIO 17A
 function multiplicaArrayPor2(array) {
-
+  const vezes2 = array.map((item) => {
+    return item * 2
+  })
+  return vezes2
 }
 
 // EXERCÍCIO 17B
 function multiplicaArrayPor2S(array) {
+  const vezes2 = array.map((item) => {
+    const novoitem = item * 2
+    return novoitem.toString()
+  })
 
+  return vezes2
 }
 
 // EXERCÍCIO 17C
 function verificaParidade(array) {
-
+  const novoArray = array.map((item) => {
+    if (item % 2 === 0) {
+      return (`${item} é par`)
+    } else {
+      return (`${item} é ímpar`)
+    }
+  })
+  return novoArray
 }
 
-// EXERCÍCIO 18A
+    // EXERCÍCIO 18A
 function retornaPessoasAutorizadas(pessoas) {
-
+  const novoArr = pessoas.filter((item) => {
+      return (item.altura >= 1.5 && item.idade > 14 && item.idade < 60)
+  })
+  return novoArr
 }
 
-// EXERCÍCIO 18B
-function retornaPessoasNaoAutorizadas(pessoas) {
+    // EXERCÍCIO 18B
+    function retornaPessoasNaoAutorizadas(pessoas) {
+      const novoArr = pessoas.filter((item) => {
+        return !(item.altura >= 1.5 && item.idade > 14 && item.idade < 60)
+    })
+    return novoArr
+    }
 
-}
+    // EXERCÍCIO 19A
+    function ordenaPorNome(consultasNome) {
+     
+    }
 
-// EXERCÍCIO 19A
-function ordenaPorNome(consultasNome) {
+    // EXERCÍCIO 19B
+    function ordenaPorData(consultasData) {
 
-}
+    }
 
-// EXERCÍCIO 19B
-function ordenaPorData(consultasData) {
+    // EXERCÍCIO 20
+    function calculaSaldo(contas) {
 
-}
-
-// EXERCÍCIO 20
-function calculaSaldo(contas) {
-
-}
+    }
