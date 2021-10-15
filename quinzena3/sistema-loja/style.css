@@ -1,0 +1,144 @@
+.redução {
+    max-width:35px;
+    max-height:35px;  
+}
+
+.letra-colorida {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    background-color: red
+}
+
+.fundo {
+    background-color: red;
+    display: inline-block;
+    margin: 10px;
+}
+
+.titulo {
+    background-color: black;
+	color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+	margin:15px;	
+}
+
+.background-color {
+    background-color: green;
+}
+
+
+.estilizacao-letra {
+    color: white;
+    font-size: 28px;
+    background-color:black ;
+    text-align: center;
+}
+
+.estilizacao-letra-1 {
+    color: white;
+    font-size: 28px;
+    background-color:black ;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.reduçãologo {
+    max-width:50px;
+    max-height:50px;  
+}
+
+.estilizacao-titulo-funcionarios {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+
+.background-color2 {
+    background-color: blue;
+}
+
+.estilizacao-lista-funcionarios {
+    background-color: black;
+	color: green;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    border: solid;
+    width: 50%;
+    
+    
+}
+
+.borda-na-lista {
+    border: solid;
+    padding: 30px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.background-color3 {
+    background: linear-gradient(to right, red, yellow);
+}
+
+.controle-de-estoque {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    border: solid;
+    background-color: orange;
+    width: 50%;  
+    margin: auto;
+}
+
+.espacamento {
+    padding: 10px
+}
+
+.negrito {
+    font-size: 30px;
+    font-weight: bold
+}
+
+.estilizacao-produto {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border: solid;
+    background-color: red;
+    width: 50%;  
+    margin: auto;
+}
+
+.formatacao-listagem-produtos {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.formas-de-pagamento {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+
+.formatacao-historico-vendas {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#facebook {
+    background-image:url('https://www.facebook.com/redecariocasucos/')
+}
